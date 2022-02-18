@@ -1,0 +1,18 @@
+{
+  "name": "clean-code-clean-arquitecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pjavier98/clean-code-clean-arquitecture.git",
+  "author": "Pedro Javier <pjpc@outlook.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "tsc && jest ./dist"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
